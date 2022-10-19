@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btn_logreg_in"
+        android:layout_width="125dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginBottom="216dp"
+        android:background="@drawable/custom_button"
+        android:onClick="onClickSignIn"
+        android:text="sign in"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btn_logreg_out"
+        android:layout_width="125dp"
+        android:layout_height="56dp"
+        android:layout_marginEnd="64dp"
+        android:layout_marginBottom="216dp"
+        android:onClick="onClickSignUp"
+        android:text="sign up"
+        android:background="@drawable/custom_button"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="242dp"
+        android:layout_height="247dp"
+        android:layout_marginTop="104dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/start_image"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

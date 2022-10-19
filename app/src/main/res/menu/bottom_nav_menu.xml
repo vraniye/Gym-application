@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Profile"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:id="@+id/profile"
+        />
+    <item android:title="Workout"
+        android:icon="@drawable/ic_baseline_create_24"
+        android:id="@+id/workout"/>
+    <item android:title="Map"
+        android:icon="@drawable/ic_baseline_map_24"
+        android:id="@+id/map"/>
+</menu>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "519173710674",
+    "firebase_url": "https://gym-application-ffeaf-default-rtdb.firebaseio.com",
+    "project_id": "gym-application-ffeaf",
+    "storage_bucket": "gym-application-ffeaf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:519173710674:android:a8adf6d16264536097908b",
+        "android_client_info": {
+          "package_name": "com.example.gymapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "519173710674-ej6er7mh7aee0b1rdkadvqiv5u5lmugt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBp7mnODCRae9U2Mie5bVd-uq8OJa4MBnQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "519173710674-ej6er7mh7aee0b1rdkadvqiv5u5lmugt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
